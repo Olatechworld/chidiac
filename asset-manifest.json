@@ -2,11 +2,11 @@
   "files": {
     "static/js/0.d3407b0e.chunk.js": "/chidiac/static/js/0.d3407b0e.chunk.js",
     "static/js/0.d3407b0e.chunk.js.map": "/chidiac/static/js/0.d3407b0e.chunk.js.map",
-    "main.css": "/chidiac/static/css/main.a788cd5e.chunk.css",
+    "main.css": "/chidiac/static/css/main.7b674199.chunk.css",
     "main.js": "/chidiac/static/js/main.8f988c70.chunk.js",
     "main.js.map": "/chidiac/static/js/main.8f988c70.chunk.js.map",
-    "runtime-main.js": "/chidiac/static/js/runtime-main.1b13a7cb.js",
-    "runtime-main.js.map": "/chidiac/static/js/runtime-main.1b13a7cb.js.map",
+    "runtime-main.js": "/chidiac/static/js/runtime-main.ffbd6c5b.js",
+    "runtime-main.js.map": "/chidiac/static/js/runtime-main.ffbd6c5b.js.map",
     "static/js/3.0ecf40a3.chunk.js": "/chidiac/static/js/3.0ecf40a3.chunk.js",
     "static/js/3.0ecf40a3.chunk.js.map": "/chidiac/static/js/3.0ecf40a3.chunk.js.map",
     "static/js/4.33af73e0.chunk.js": "/chidiac/static/js/4.33af73e0.chunk.js",
@@ -16,8 +16,8 @@
     "static/js/5.073b7e32.chunk.js.map": "/chidiac/static/js/5.073b7e32.chunk.js.map",
     "static/js/6.278cf4b3.chunk.js": "/chidiac/static/js/6.278cf4b3.chunk.js",
     "static/js/6.278cf4b3.chunk.js.map": "/chidiac/static/js/6.278cf4b3.chunk.js.map",
-    "static/js/7.e591416e.chunk.js": "/chidiac/static/js/7.e591416e.chunk.js",
-    "static/js/7.e591416e.chunk.js.map": "/chidiac/static/js/7.e591416e.chunk.js.map",
+    "static/js/7.526652da.chunk.js": "/chidiac/static/js/7.526652da.chunk.js",
+    "static/js/7.526652da.chunk.js.map": "/chidiac/static/js/7.526652da.chunk.js.map",
     "static/js/8.def902c6.chunk.js": "/chidiac/static/js/8.def902c6.chunk.js",
     "static/js/8.def902c6.chunk.js.map": "/chidiac/static/js/8.def902c6.chunk.js.map",
     "static/js/9.c7d9fb0b.chunk.js": "/chidiac/static/js/9.c7d9fb0b.chunk.js",
@@ -32,7 +32,7 @@
     "static/js/13.22cfb2b8.chunk.js.map": "/chidiac/static/js/13.22cfb2b8.chunk.js.map",
     "index.html": "/chidiac/index.html",
     "static/css/5.4c97ca4f.chunk.css.map": "/chidiac/static/css/5.4c97ca4f.chunk.css.map",
-    "static/css/main.a788cd5e.chunk.css.map": "/chidiac/static/css/main.a788cd5e.chunk.css.map",
+    "static/css/main.7b674199.chunk.css.map": "/chidiac/static/css/main.7b674199.chunk.css.map",
     "static/js/0.d3407b0e.chunk.js.LICENSE.txt": "/chidiac/static/js/0.d3407b0e.chunk.js.LICENSE.txt",
     "static/js/11.e854df97.chunk.js.LICENSE.txt": "/chidiac/static/js/11.e854df97.chunk.js.LICENSE.txt",
     "static/js/12.721caa3c.chunk.js.LICENSE.txt": "/chidiac/static/js/12.721caa3c.chunk.js.LICENSE.txt",
@@ -43,10 +43,10 @@
     "static/media/fadhel.jpeg": "/chidiac/static/media/fadhel.41b53890.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b13a7cb.js",
+    "static/js/runtime-main.ffbd6c5b.js",
     "static/css/5.4c97ca4f.chunk.css",
     "static/js/5.073b7e32.chunk.js",
-    "static/css/main.a788cd5e.chunk.css",
+    "static/css/main.7b674199.chunk.css",
     "static/js/main.8f988c70.chunk.js"
   ]
 }
