@@ -1,13 +1,325 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/***********fontgoogle roboto****************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+*{
+    padding:  0px;
+    margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: "Poppins",'Roboto', sans-serif;
 }
+
+:root{
+    --primary_family: Roboto;
+    --primary-color: #06a77d
+}
+
+/*************PARTIE SPYNNER CHARMEMENT************/
+.containerloading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #052f5f;
+  cursor: wait;
+}
+
+.loading, #contentload{
+  height: 20px;
+  right: 0px;
+  top:0px;
+  left: 0px;
+  bottom: 0px;
+  margin-top: 50vh;
+  margin-right: 15px;
+}
+
+#contentload{
+  color: white;
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+/***********STYLE MENU**************************/
+
+nav{
+  box-shadow: 8px 8px 12px #aaa;
+}
+.navbar-dark{
+    background-image: linear-gradient(to right top, #005377, #004a72, #00416c, #003866, #052f5f) !important;
+}
+
+nav .navbar-brand  {
+    font-size: 20px;
+    font-weight: var(--primary_family);
+    letter-spacing: 1px;
+    /*box-shadow: 10px 5px 5px #06a77d;*/
+}
+
+.navbar-nav .nav-item  a, .navbar-nav .active  a{
+    margin-left: 12px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    font-size: 12px;
+    opacity: 0.9;
+    letter-spacing: 1.2px;
+    font-weight: var(--primary_family);
+    padding-top: 20px;
+}
+
+nav ul li a:hover{
+  background-color: orange;
+}
+
+
+/**********************PARTIE HEADER ******************************************/
+.wrapper-header{
+    position: absolute;
+    margin-top: 2px;
+    height: 100vh;
+    position: relative;
+    background: url(arriereplan.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; 
+
+}
+
+ .main-header{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--primary_family) sans-serif;
+    line-height: 3;
+    z-index: 10;
+    
+}
+
+.main-header h4{
+    color: orange;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contactermoi {
+    padding: 0px 8px 0px 8px;
+    border: 2px  solid orange;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: var(--primary_family) sans-serif serif;
+    letter-spacing: 1.5px;
+    background-color: orange;
+  }
+  .contactermoi:hover{
+    background-color: #052f5f;
+    border: 2px  solid #052f5f;
+  }
+
+.tuped-text{
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto";
+}
+
+/************************Button contacter Moi***************************/
+
+a.contactermoi:link 
+{ 
+ text-decoration:none; 
+ color: red;
+}
+
+a.contactermoi:hover
+{ 
+ text-decoration:none; 
+ color: white;
+}
+
+
+
+/******************Particle style***************************/
+.partcle{
+    position: absolute;
+    height: 100vh;
+    width:100%;
+    z-index: 1;
+}
+
+/*****************Partie Presentation*******************/
+#wrapper-moi{
+  margin-top: 60px;
+}
+.presentation{
+  text-align: center;
+  margin-top: 50px;
+}
+.containermoi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 50px;
+    margin: 40px; 
+}
+
+.moi1{
+  flex: 1 400px;
+}
+
+.moi1:nth-of-type(1) {
+  flex: 2 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.moi1:nth-of-type(2) {
+  line-height: 25px;
+  line-break: auto;
+  font-family: var(--primary_family);
+  font-size: 20px;
+  letter-spacing: 05;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.pictures img{
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+/*****************PARTIE COMPETENCES*******************************/
+#competences{
+  height: 80vh;
+}
+.containercompetences{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card img{
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.card:hover{
+  box-shadow: 10px 10px 12px #aaa;
+}
+
+.card-img-top{
+ margin-top: 50px;
+}
+
+.card-body .card-title{
+  text-align: center;
+}
+
+.buttoncenter{
+  text-align: center;
+}
+.buttoncenter img{
+  width: 12px;
+  color: white;
+}
+
+ .card-body .btn{
+  background-color: orange ;
+  border-color: orange;
+ }
+
+
+.card-body .btn:hover{
+  background-color: #052f5f;
+  border-color: #052f5f;
+}
+
+.containerpopup{
+  position: fixed;
+  left: 0px;
+  top:0px;
+  background-color: rgba(0,0 ,0 , 0.5);
+  width: 100%;
+  height: 100%;
+  z-index:1;
+}
+
+.kidcontainerpopup{
+    margin: 10% auto;
+    width: 70%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+
+
+
+
+/* ###############################################################################
+                            ------ PARTIE CONTACT BAS DE PAGE ----------
+################################################################################### */
+.containerbottom{
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  margin: 20px;
+}
+
+.containerbottom div{
+  display: inline-flex;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: orange;
+  box-shadow: 8px 8px 12px #aaa;
+  cursor: pointer;
+}
+
+.containerbottom div:hover{
+  background-color: #052f5f;
+  
+}
+
+.containerbottom div svg:hover{
+    transform: scale(1.40);
+}
+
+.containerbottom div svg{
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 15px;
+  color: white;
+}
+
+
+
+/* ###############################################################################
+                            ------ PARTIE RESPONSIVE ----------
+################################################################################### */
