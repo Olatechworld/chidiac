@@ -8,7 +8,7 @@ const Header = React.lazy(() => import('./Header'));
 const Moi = React.lazy(() => import("./Moi"));
 const Contactbottom = React.lazy(() => import("./Contactbottom"));
 const Competences = React.lazy(() => import("./Competences"));
-
+const Footer = React.lazy(()=>import('./Footer'))
 function App() {
   let load = <div className="containerloading"><Spinner animation="border" variant="warning" className="loading"/><div id="contentload">Chidiac GABA</div></div>
   return (
@@ -18,6 +18,7 @@ function App() {
     <Moi />
     <Competences />
     <Contactbottom />
+    <Footer />
     </Suspense>
   );
 }

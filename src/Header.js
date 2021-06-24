@@ -1,10 +1,20 @@
 import React, { useState } from 'react'
 import Typed from 'react-typed';
 import Particles from 'react-particles-js';
-import Pdfview from './Pdfview'
-import { Button } from 'react-bootstrap';
+import { Button, Modal } from 'react-bootstrap';
+import fadel from './fadhel.jpeg'
+
+
+// Plugins
+
 export const Header = () => {
-  const [showpdf, setshowpdf] = useState(false)
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => {
+    setShow(true)
+
+  };
 
     return (
        
@@ -38,12 +48,12 @@ export const Header = () => {
                     backSpeed={60}
                    loop 
                />
-               {
-                showpdf?<div className="containerpopup">
-                    <Pdfview />
-            </div>:null
-            }
-               <a className="contactermoi" onClick={()=>setshowpdf(true)}>Télécharger mon cv ici</a>
+               <Modal show={show} onHide={handleClose}>
+                  <Modal.Body>
+                    <img src={fadel} />
+                	</Modal.Body>
+               </Modal>
+               <Button className="contactermoi" onClick={()=>handleShow()}>Télécharger mon cv ici</Button>
             </div>
         </section>
     )

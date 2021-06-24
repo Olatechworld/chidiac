@@ -1,6 +1,5 @@
 /***********fontgoogle roboto****************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 
 *{
@@ -22,7 +21,6 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  z-index: 999;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -105,7 +103,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: var(--primary_family) sans-serif;
+    font-family: "Popins",sans-serif;
     line-height: 3;
     z-index: 10;
     
@@ -123,9 +121,9 @@ nav ul li a:hover{
     border: 2px  solid orange;
     border-radius: 20px;
     text-transform: uppercase;
-    color: white;
+    color: white !important;
     font-weight: bold;
-    font-family: var(--primary_family) sans-serif serif;
+    font-family: "Popins", sans-serif serif;
     letter-spacing: 1.5px;
     background-color: orange;
   }
@@ -137,7 +135,7 @@ nav ul li a:hover{
 .tuped-text{
     font-size: 25px;
     color: white;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 /************************Button contacter Moi***************************/
@@ -194,7 +192,7 @@ a.contactermoi:hover
 .moi1:nth-of-type(2) {
   line-height: 25px;
   line-break: auto;
-  font-family: var(--primary_family);
+  font-family: "Popins", sans-serif;
   font-size: 20px;
   letter-spacing: 05;
   text-indent: 20px;
@@ -210,7 +208,8 @@ a.contactermoi:hover
 
 /*****************PARTIE COMPETENCES*******************************/
 #competences{
-  height: 80vh;
+  height: auto;
+  margin-bottom: 50px;
 }
 .containercompetences{
   margin-top: 40px;
@@ -258,39 +257,15 @@ a.contactermoi:hover
   border-color: #052f5f;
 }
 
-.containerpopup{
-  position: fixed;
-  left: 0px;
-  top:0px;
-  background-color: rgba(0,0 ,0 , 0.5);
-  width: 100%;
-  height: 100%;
-  z-index:1;
-}
-
-.kidcontainerpopup{
-    margin: 10% auto;
-    width: 70%;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-
-
-
-
-
-
+ 
 /* ###############################################################################
                             ------ PARTIE CONTACT BAS DE PAGE ----------
 ################################################################################### */
 .containerbottom{
-  bottom: 0px;
+  bottom: 2px;
   right: 0px;
   position: fixed;
-  margin: 20px;
+  margin: 15px;
 }
 
 .containerbottom div{
@@ -318,6 +293,28 @@ a.contactermoi:hover
   color: white;
 }
 
+
+/***************Foooter***********************/
+.monfooter{
+  background-image: linear-gradient(to right top, #005377, #004a72, #00416c, #003866, #052f5f) !important;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+
+}
+
+.containerfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:20px;
+}
+
+
+.titlefooter{
+  letter-spacing: 0.5px;
+  text-align: center;
+}
 
 
 /* ###############################################################################

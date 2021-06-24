@@ -5,14 +5,14 @@ import { faAt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
 function Contactbottom() {
     return (
-        <div className="containerbottom">
+        <section className="containerbottom">
             <div>
                 <FontAwesomeIcon icon={faPhoneAlt} /> 
             </div>
             <div>
                 <FontAwesomeIcon icon={faAt}  onClick={()=>alert('toto')}/>
             </div> 
-        </div>
+        </section>
     )
 }
 
