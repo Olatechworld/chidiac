@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-chidiac"]=this["webpackJsonpportfolio-chidiac"]||[]).push([[10],{357:function(c,t,i){"use strict";i.r(t);i(0);var o=i(39),n=i(40),e=i(1);t.default=function(){return Object(e.jsxs)("section",{className:"containerbottom",children:[Object(e.jsx)("div",{children:Object(e.jsx)(o.a,{icon:n.c})}),Object(e.jsx)("div",{children:Object(e.jsx)(o.a,{icon:n.a,onClick:function(){return alert("toto")}})})]})}}}]);
+//# sourceMappingURL=10.d1a38711.chunk.js.map
